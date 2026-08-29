@@ -1,0 +1,50 @@
+# ==========================================
+# Yerel Akademik Doküman Asistanı - Bağımlılıklar
+# Python 3.10+ | PyTorch 2.4.0+cu121
+# ==========================================
+
+# --- Çekirdek Kütüphaneler ---
+# PyTorch (CUDA 12.1 destekli)
+# KURULUM: https://pytorch.org/get-started/locally/
+# pip install torch==2.4.0+cu121 torchvision==0.19.0+cu121 --extra-index-url https://download.pytorch.org/whl/cu121
+torch>=2.4.0
+torchvision>=0.19.0
+
+# --- LangChain Ekosistemi ---
+langchain>=0.3.0
+langchain-community>=0.3.0
+langchain-huggingface>=0.1.0
+langchain-ollama>=0.2.0
+
+# --- Ollama (Yerel LLM) ---
+ollama>=0.3.0
+
+# --- Vektör Veritabanı ---
+faiss-cpu>=1.8.0
+# NOT: GPU desteği için: faiss-gpu>=1.8.0 (CUDA sürümüne göre)
+
+# --- Embedding Modelleri ---
+transformers>=4.30.0,<4.40.0
+sentence-transformers>=2.2.0,<3.0.0
+huggingface-hub>=0.23.0
+
+# --- Doküman İşleme ---
+PyPDF2>=3.0.0
+pdfplumber>=0.11.0
+python-docx>=1.1.0
+unstructured>=0.14.0
+
+# --- Arayüz ---
+streamlit>=1.40.0
+
+# --- Yardımcı Kütüphaneler ---
+python-dotenv>=1.0.0
+numpy>=1.26.0
+requests>=2.32.0
+feedparser>=6.0.0
+tqdm>=4.66.0
+
+# --- Geliştirme (isteğe bağlı) ---
+# pytest>=8.0.0
+# black>=24.0.0
+# pylint>=3.0.0
