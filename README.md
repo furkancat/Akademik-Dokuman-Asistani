@@ -10,9 +10,7 @@
 
 ## 🖼️ Arayüz
 
-> ```markdown
 <img width="956" height="567" alt="Ekran görüntüsü 2026-08-29 155139" src="https://github.com/user-attachments/assets/b368b277-0d30-4c26-a97a-a8a19b85fe94" />
-> ```
 
 ---
 
